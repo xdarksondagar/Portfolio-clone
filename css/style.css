@@ -319,7 +319,7 @@ body {
   max-width: 100%;
   width: 22vw;
   min-width: 25rem;
-  height: auto;
+  aspect-ratio: 731 / 1096;
 }
 .hero_bg-text {
   font-size: clamp(82px, 10vw, 168px);
@@ -350,7 +350,7 @@ body {
 .hero_like img {
   display: inline-block;
   width: 1.5rem;
-  height: auto;
+  aspect-ratio: 20/18;
   opacity: 0.4;
   animation: boop 0.5s ease alternate infinite;
 }
@@ -434,7 +434,7 @@ body {
 
 .project_pic {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1096 / 720;
   object-fit: cover;
 }
 .project_text {
@@ -465,7 +465,7 @@ body {
 }
 .filter_img {
   width: 2rem;
-  height: auto;
+  aspect-ratio: 1;
 }
 .filter_item_container {
   margin: 0;
